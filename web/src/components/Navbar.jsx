@@ -50,7 +50,9 @@ export default function Navbar() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.9, duration: 0.6 }}
-          href="#waitlist"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScU85kgbPmiIvhF3nuTBkpgXawRpTDbzRYWVcJZ0KvLFLEEcg/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-6 py-2 bg-primary-container text-on-primary font-bold rounded-full electric-glow transition-transform active:scale-95"
         >
           Join Waitlist
