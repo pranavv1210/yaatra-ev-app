@@ -45,7 +45,7 @@ export default function VehicleShowcase() {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-66.66%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-surface-charcoal/50">
+    <section id="models" ref={targetRef} className="relative h-[300vh] bg-surface-charcoal/50">
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">
         <div className="absolute top-32 left-margin-mobile md:left-gutter z-10">
           <motion.h2 

@@ -19,15 +19,20 @@ export default function Navbar() {
         </motion.div>
         
         <div className="hidden md:flex items-center gap-stack-lg">
-          {["Models", "Why VoltRide", "Impact"].map((item, i) => (
+          {[
+            { label: "Models", href: "#models" },
+            { label: "Why VoltRide", href: "#vision" },
+            { label: "Impact", href: "#impact" }
+          ].map((item, i) => (
             <motion.a 
-              key={item}
+              key={item.label}
+              href={item.href}
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 + i * 0.1, duration: 0.6 }}
               className="font-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 cursor-pointer"
             >
-              {item}
+              {item.label}
             </motion.a>
           ))}
           <motion.a 
