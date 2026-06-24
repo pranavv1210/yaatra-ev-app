@@ -35,7 +35,7 @@ export default function VehicleShowcase() {
           
           <img 
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvkG4PN51kxrHtC2xiHZINplvQUMfusf1ZhNn4m9-wpwevkZpkUARNdMN9wDjYS7KtR_ArZRmEZ2nUaxKzP6inukVrDNLvFmhDsnSQSGqO78Se0yJi_ruEEA3hEbenOogSLKHhBnoLvuQ6FGh2DFWF-XKAX6-fEWh-wrw_dAIw27cDCsxPlocdqdP8ZjFKjxEG201RyoURAAvMFZuuUjH28jKnjt43RaQI8NKfLUr7QlN-zwjkus8IkvkvzMyUYmrz51NnsYAz_HWd" 
-            className="w-full h-full object-contain relative z-10 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" 
+            className="h-full md:h-[90%] aspect-square mx-auto object-cover rounded-[2rem] relative z-10 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" 
             alt="EV Auto" 
           />
           
