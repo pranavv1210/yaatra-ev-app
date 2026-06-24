@@ -23,7 +23,9 @@ export default function Waitlist() {
               Help shape the future of <span className="gradient-text italic">Bengaluru Mobility by Yaatra EV </span>
             </h2>
             
-            <p className="text-xl md:text-2xl text-text-secondary mb-8 font-light">Join the early access list today.</p>
+            <p className="text-xl md:text-2xl text-text-secondary mb-8 font-light max-w-2xl mx-auto">
+              Get exclusive early access to Yaatra EV and experience premium electric mobility before anyone else. Driving cleaner, traveling safer, and shaping a better tomorrow.
+            </p>
             
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
