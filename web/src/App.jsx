@@ -53,7 +53,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="font-body-md antialiased text-white bg-background min-h-screen">
+    <div className="font-body-md antialiased text-white bg-background min-h-screen overflow-x-hidden">
       
 
 <nav className="fixed top-0 w-full z-50 bg-background/70 backdrop-blur-xl border-b border-glass-border">
@@ -192,7 +192,7 @@ export default function App() {
 <div className="relative">
 <div className="aspect-square rounded-3xl overflow-hidden glass-panel p-2">
 <div className="w-full h-full rounded-2xl overflow-hidden relative">
-<div className="bg-cover bg-center w-full h-full grayscale opacity-60" data-location="Bengaluru" style={{"backgroundImage":"url('https"}}></div>
+<div className="bg-cover bg-center w-full h-full grayscale opacity-60" data-location="Bengaluru" style={{backgroundImage: "url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1000&auto=format&fit=crop')"}}></div>
 <div className="absolute inset-0 bg-gradient-to-br from-primary-container/20 via-transparent to-background/80"></div>
 <div className="absolute inset-0 flex items-center justify-center">
 <div className="w-32 h-32 bg-primary-container/10 rounded-full flex items-center justify-center animate-pulse">
