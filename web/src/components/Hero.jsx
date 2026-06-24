@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.6 }}
           className="font-body-lg text-xl md:text-2xl text-text-secondary mb-12 max-w-2xl font-light"
         >
-          Experience Bengaluru's premium EV-only mobility platform. Cleaner rides. Safer journeys. A better future.
+          Get exclusive early access to Yaatra EV and experience premium electric mobility before anyone else. Driving cleaner, traveling safer, and shaping a better tomorrow.
         </motion.p>
 
         <motion.div 
