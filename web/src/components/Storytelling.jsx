@@ -47,19 +47,6 @@ export default function Storytelling() {
           </motion.p>
         </div>
       </div>
-
-      <motion.div 
-        className="mt-32 w-full h-[60vh] md:h-[80vh] relative"
-        style={{ scale: useTransform(scrollYProgress, [0.3, 0.8], [0.9, 1]) }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent z-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-surface-container-lowest to-transparent z-10"></div>
-        <img 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiEUe9-rcjyAvLai-t550uGpXpOsPepsPJsvf5yGphR3k-QCXfZHFV68znTGHZgxATFwUTScSmV7D5ZPyN_-Fk5EdvkHcIQoH2uXq7c4KC5GYJbho2fNLWvGUPiJ25GapldNS4w3gxI8g6gyKVU_hJf87UaxOl2es56JPLrBNg5wE5whzyVX7zbN2shvYACCCpkrGnlMGy9dPMxNXUXe8TeoMAqJy6ZQyXyqcpQgKnxF5oXZgDy3019D4TGU9NNPv4sl4cF2qPNN9Q"
-          alt="Premium EV"
-          className="w-full h-full object-cover opacity-60"
-        />
-      </motion.div>
     </section>
   );
 }

@@ -44,10 +44,10 @@ export default function WomenMode() {
             </div>
           </div>
           
-          <motion.div style={{ y: y2 }} className="absolute -right-12 top-24 glass-panel p-6 rounded-2xl border border-secondary/20 shadow-2xl z-20 backdrop-blur-2xl">
-            <div className="flex items-center gap-4">
-              <Shield className="text-secondary" size={24} />
-              <span className="text-primary font-bold">Women-Only Matching</span>
+          <motion.div style={{ y: y2 }} className="absolute -left-4 md:-right-12 -top-8 md:top-24 glass-panel p-4 md:p-6 rounded-2xl border border-secondary/20 shadow-2xl z-20 backdrop-blur-2xl">
+            <div className="flex items-center gap-2 md:gap-4">
+              <Shield className="text-secondary" size={20} />
+              <span className="text-primary font-bold text-sm md:text-base">Women-Only Matching</span>
             </div>
           </motion.div>
         </motion.div>

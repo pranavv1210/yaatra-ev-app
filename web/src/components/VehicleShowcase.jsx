@@ -39,15 +39,17 @@ const vehicles = [
 
 export default function VehicleShowcase() {
   const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({ target: targetRef });
-  
+  const { scrollYProgress } = useScroll({ 
+    target: targetRef,
+    offset: ["start start", "end end"]
+  });
   // Transform vertical scroll to horizontal movement
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-66.66%"]);
 
   return (
     <section id="models" ref={targetRef} className="relative h-[300vh] bg-surface-charcoal/50">
-      <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">
-        <div className="absolute top-32 left-margin-mobile md:left-gutter z-10">
+      <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden">
+        <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-gutter relative z-30 mb-8 pt-24 shrink-0">
           <motion.h2 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -59,7 +61,7 @@ export default function VehicleShowcase() {
           <p className="text-text-secondary mt-2">Engineered for every journey.</p>
         </div>
 
-        <motion.div style={{ x }} className="flex w-[300vw] h-full items-center pl-[20vw] md:pl-[30vw]">
+        <motion.div style={{ x }} className="flex w-[300vw] flex-1 items-center pb-24">
           {vehicles.map((veh, i) => (
             <div key={i} className="w-screen flex-shrink-0 flex items-center justify-center px-4">
               <div className="glass-panel w-full max-w-4xl rounded-[2rem] md:rounded-[3rem] overflow-hidden flex flex-col md:flex-row group border-glass-border/30">
