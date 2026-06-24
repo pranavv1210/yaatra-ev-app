@@ -15,13 +15,13 @@ export default function Navbar() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="font-headline-md text-headline-md font-bold text-primary tracking-tighter"
         >
-          VoltRide
+          YAATRA EV
         </motion.div>
         
         <div className="hidden md:flex items-center gap-stack-lg">
           {[
             { label: "Models", href: "#models" },
-            { label: "Why VoltRide", href: "#vision" },
+            { label: "Why YAATRA EV", href: "#vision" },
             { label: "Impact", href: "#impact" }
           ].map((item, i) => (
             <motion.a 

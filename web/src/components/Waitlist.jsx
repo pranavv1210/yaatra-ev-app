@@ -15,7 +15,7 @@ export default function Waitlist() {
           className="glass-panel p-12 md:p-32 rounded-[4rem] text-center relative overflow-hidden border border-primary-container/30 bg-surface-container-lowest/50 backdrop-blur-3xl shadow-2xl"
         >
           <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
-            <div className="mb-10 inline-block bg-primary-container/10 border border-primary-container/30 rounded-full px-6 py-2 text-primary-container font-bold tracking-widest text-sm uppercase shadow-[0_0_20px_rgba(0,255,102,0.1)]">
+            <div className="mb-10 inline-block bg-primary-container/10 border border-primary-container/30 rounded-full px-6 py-2 text-primary-container font-bold tracking-widest text-sm uppercase shadow-[0_0_20px_rgba(77,168,255,0.1)]">
               Launching First in Bengaluru, Karnataka 🇮🇳
             </div>
             

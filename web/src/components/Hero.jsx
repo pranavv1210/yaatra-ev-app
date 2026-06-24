@@ -37,7 +37,7 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="font-display-lg-mobile md:font-display-lg text-[12vw] md:text-[6vw] leading-[1.1] tracking-tighter text-primary mb-8 max-w-5xl"
         >
-          The Future of Mobility is <br />
+          The Future of Bengaluru Mobility is <br />
           <span className="gradient-text italic">Electric.</span>
         </motion.h1>
 
@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.6 }}
           className="font-body-lg text-xl md:text-2xl text-text-secondary mb-12 max-w-2xl font-light"
         >
-          Cleaner rides. Safer journeys. A premium experience built entirely around high-performance electric vehicles.
+          Experience Bengaluru's premium EV-only mobility platform. Cleaner rides. Safer journeys. A better future.
         </motion.p>
 
         <motion.div 

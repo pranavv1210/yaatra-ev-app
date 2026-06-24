@@ -44,11 +44,11 @@ export default function Impact() {
             viewport={{ once: true }}
             className="font-headline-xl text-4xl md:text-6xl text-primary"
           >
-            Your Contribution, <span className="text-primary-container italic">Quantified.</span>
+            Your Contribution, <span className="text-secondary italic">Quantified.</span>
           </motion.h2>
         </div>
         
-        <div className="glass-panel rounded-[3rem] md:rounded-[4rem] border border-primary-container/20 overflow-hidden backdrop-blur-3xl bg-surface-container-lowest/80">
+        <div className="glass-panel rounded-[3rem] md:rounded-[4rem] border border-secondary/20 overflow-hidden backdrop-blur-3xl bg-surface-container-lowest/80">
           <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-glass-border/30">
             <Counter from={0} to={12850} duration={2} label="Kg CO₂ Saved" />
             <Counter from={0} to={84200} duration={2.5} label="Cleaner Rides Today" />

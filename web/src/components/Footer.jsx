@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-surface-container-lowest w-full py-24 border-t border-glass-border/30 relative z-10">
       <div className="max-w-container-max mx-auto px-margin-mobile flex flex-col md:flex-row justify-between gap-12">
         <div className="max-w-sm">
-          <div className="font-headline-md text-headline-md text-primary font-bold mb-6">VoltRide</div>
+          <div className="font-headline-md text-headline-md text-primary font-bold mb-6">YAATRA EV</div>
           <p className="text-text-secondary text-sm leading-relaxed">Pioneering sustainable urban mobility for a cleaner, safer Bengaluru.</p>
         </div>
         <div className="flex gap-24">
@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-container-max mx-auto px-margin-mobile mt-16 pt-8 border-t border-glass-border flex flex-col md:flex-row justify-between items-center text-text-secondary text-xs gap-4">
-        <p>© 2026 VoltRide Mobility. Crafted for Bengaluru.</p>
+        <p>© 2026 YAATRA EV Mobility. Crafted for Bengaluru.</p>
         <div className="flex gap-6">
           <span>Bengaluru Operations</span>
           <span className="text-primary-container">Waitlist Status: OPEN</span>

@@ -22,7 +22,7 @@ export default function WomenMode() {
           <div className="glass-panel p-2 rounded-[3rem] border border-glass-border/30 bg-surface-container-lowest/50 backdrop-blur-xl relative z-10">
             <div className="rounded-[2.5rem] overflow-hidden relative aspect-[4/5]">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzEd9yuzT94TfyF1vm5zfcbnmsKHMmMoUSs9ZDqNy_sEd-1pf6aY0i9DNWfdLDMDyiZFrOUvuuEriMFZjS-cclC70pk6CN8DiIGJeu2hQGQ28nkqoZTBcBSD7m2fZ8u1OWL5qjNeZ8RsYD6GPV6ZRmQnyVjHXtEP386lQnQ_uD12UdYyTYebVoFHPeV60WE8FUjGEIUFv4GoR_R5s5Amo7iDGWUuAJ4Hmio8V4GKu7r02doUersHz8NHF8tUGlZBcM3K9bknST8YPs" 
+                src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=2000&auto=format&fit=crop" 
                 alt="Verified Driver"
                 className="w-full h-full object-cover"
               />
@@ -30,8 +30,8 @@ export default function WomenMode() {
               
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-3 h-3 bg-secondary rounded-full animate-pulse shadow-[0_0_10px_#68dba9]"></div>
-                  <span className="text-secondary font-bold tracking-widest text-xs uppercase">Live Trip Tracking</span>
+                  <div className="w-3 h-3 bg-tertiary rounded-full animate-pulse shadow-[0_0_10px_#A78BFA]"></div>
+                  <span className="text-tertiary font-bold tracking-widest text-xs uppercase">Live Trip Sharing</span>
                 </div>
                 <div className="bg-background/80 backdrop-blur-md p-6 rounded-2xl border border-glass-border">
                   <div className="text-primary font-bold text-xl">Aarti Sharma</div>
@@ -44,10 +44,10 @@ export default function WomenMode() {
             </div>
           </div>
           
-          <motion.div style={{ y: y2 }} className="absolute -left-4 md:-right-12 -top-8 md:top-24 glass-panel p-4 md:p-6 rounded-2xl border border-secondary/20 shadow-2xl z-20 backdrop-blur-2xl">
+          <motion.div style={{ y: y2 }} className="absolute -left-4 md:-right-12 -top-8 md:top-24 glass-panel p-4 md:p-6 rounded-2xl border border-tertiary/20 shadow-2xl z-20 backdrop-blur-2xl">
             <div className="flex items-center gap-2 md:gap-4">
-              <Shield className="text-secondary" size={20} />
-              <span className="text-primary font-bold text-sm md:text-base">Women-Only Matching</span>
+               <Shield className="text-tertiary" size={20} />
+              <span className="text-primary font-bold text-sm md:text-base">Female Driver Matching</span>
             </div>
           </motion.div>
         </motion.div>
@@ -59,25 +59,25 @@ export default function WomenMode() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
           >
-            <span className="text-secondary font-bold tracking-widest text-xs uppercase">Safety Redefined</span>
+            <span className="text-tertiary font-bold tracking-widest text-xs uppercase">Safety Redefined</span>
             <h2 className="font-headline-xl text-5xl md:text-6xl text-primary mt-6 mb-8 leading-tight">Absolute Peace. <br/>By Design.</h2>
             <p className="text-xl text-text-secondary mb-12 font-light leading-relaxed">
-              Select "Women Mode" to be exclusively matched with our verified female driver-partners. VoltRide is the first platform to prioritize this level of social safety at its core, not as an afterthought.
+              Select "Women Mode" to be exclusively matched with our verified female driver-partners. YAATRA EV is the first platform to prioritize this level of social safety at its core, not as an afterthought.
             </p>
 
             <div className="space-y-8">
               <div className="flex items-start gap-6 group">
-                <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                  <Shield className="text-secondary" />
+                <div className="w-14 h-14 rounded-full bg-tertiary/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <Shield className="text-tertiary" />
                 </div>
                 <div>
-                  <h4 className="text-primary font-bold text-xl mb-2">Tiered Verification</h4>
+                  <h4 className="text-primary font-bold text-xl mb-2">Emergency Contacts</h4>
                   <p className="text-text-secondary">Background checks that exceed industry standards for every partner on our network.</p>
                 </div>
               </div>
               <div className="flex items-start gap-6 group">
-                <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                  <MapPin className="text-secondary" />
+                <div className="w-14 h-14 rounded-full bg-tertiary/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <MapPin className="text-tertiary" />
                 </div>
                 <div>
                   <h4 className="text-primary font-bold text-xl mb-2">Continuous Monitoring</h4>

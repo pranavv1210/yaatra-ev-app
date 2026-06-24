@@ -5,7 +5,7 @@ const vehicles = [
   {
     name: "EV Bike",
     desc: "Master Bengaluru's traffic with nimble, high-torque electric bikes.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAGo3IvRNMcTEcVBO-pgvMdTXQuA_47WPEsJwxbCvPQkhVRjOHHdz7W_6QhoblTkUS9ntrbJPmc0S6c1MB0Gg_Hr0P_j2M5BT-Ho9Ic17fyXTtWyo5JmwUKkxScgjZ24SEtuFJOG4f7OStxQvNvlhuM6dQIwJHCB-dHOq7wtAo6WNCObERnE-xfT1XDQgezi37szOFTPJakm2bUsBPIbAk6I-YYinJXmh4LyTU4r2pfpg7N3ZR4BDCZVSnwGY89E8ro0u9Aveg7A_Qk",
+    img: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2000&auto=format&fit=crop",
     tag: "SWIFT",
     stats: [
       { v: "120km", l: "Range" },
@@ -16,7 +16,7 @@ const vehicles = [
   {
     name: "EV Cab",
     desc: "The gold standard of urban mobility. Silent cabins and premium comfort.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBk3qdH-g7mqxs9RlC_DGM-Q2yIYUCE2AhRnDElHC1lzceZwww-eKRte9ubg6h41WzIMlr9OFG0wlMBHhfR66u_ABdfvg7qSoADE-_uIPdmgnkmT4CGlqOnfjVgpcqx5sbuxtH360UIZvSs6VGdvOKE9zB1Wk17kikwr9ehEqwvKHPccSN8mAUlTCbjuG9OVmbkIsB6yFHuOoWyxT3hyRORomgS_bRkmd_X3qcvJZd7pG-x3Llb8LFcIcZWVB5CBTpA2XY-mi4xTde0",
+    img: "https://images.unsplash.com/photo-1551806235-a05d67683d73?q=80&w=2000&auto=format&fit=crop",
     tag: "LUXURY",
     stats: [
       { v: "450km", l: "Range" },
@@ -27,7 +27,7 @@ const vehicles = [
   {
     name: "EV Auto",
     desc: "Reimagining the icon of Indian cities for a sustainable tomorrow.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCvkG4PN51kxrHtC2xiHZINplvQUMfusf1ZhNn4m9-wpwevkZpkUARNdMN9wDjYS7KtR_ArZRmEZ2nUaxKzP6inukVrDNLvFmhDsnSQSGqO78Se0yJi_ruEEA3hEbenOogSLKHhBnoLvuQ6FGh2DFWF-XKAX6-fEWh-wrw_dAIw27cDCsxPlocdqdP8ZjFKjxEG201RyoURAAvMFZuuUjH28jKnjt43RaQI8NKfLUr7QlN-zwjkus8IkvkvzMyUYmrz51NnsYAz_HWd",
+    img: "https://images.unsplash.com/photo-1588629088686-2911b3ef1333?q=80&w=2000&auto=format&fit=crop",
     tag: "VERSATILE",
     stats: [
       { v: "180km", l: "Range" },
