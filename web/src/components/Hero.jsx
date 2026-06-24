@@ -54,13 +54,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.7 }}
-          className="bg-surface-container-lowest/50 backdrop-blur-3xl border border-primary-container/30 px-6 py-6 md:px-12 rounded-3xl mb-12 shadow-[0_0_40px_rgba(77,168,255,0.15)] relative overflow-hidden"
+          className="bg-surface-container-lowest/50 backdrop-blur-3xl border border-amber-500/40 px-6 py-6 md:px-12 rounded-3xl mb-12 shadow-[0_0_40px_rgba(245,158,11,0.2)] relative overflow-hidden"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-container/10 via-transparent to-primary-container/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-amber-500/10"></div>
           <div className="relative z-10 flex flex-col items-center">
-            <span className="text-primary-container font-bold text-sm uppercase tracking-widest mb-3 inline-block px-4 py-1 rounded-full bg-primary-container/10 border border-primary-container/20">Early Access</span>
+            <span className="text-amber-600 font-bold text-sm uppercase tracking-widest mb-3 inline-block px-4 py-1 rounded-full bg-amber-500/10 border border-amber-500/30">Early Access</span>
             <p className="text-primary text-xl md:text-2xl font-light leading-snug">
-              Sign up now to get updates and receive an <span className="font-bold text-primary-container">exciting initial launch offer.</span>
+              Sign up now to get updates and receive an <span className="font-bold text-amber-600">exciting initial launch offer.</span>
             </p>
           </div>
         </motion.div>
