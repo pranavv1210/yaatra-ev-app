@@ -13,7 +13,7 @@ export default function WomenMode() {
   const y2 = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
 
   return (
-    <section ref={ref} className="py-48 relative overflow-hidden bg-surface-charcoal">
+    <section id="women-mode" ref={ref} className="py-48 relative overflow-hidden bg-surface-charcoal">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-secondary-container/10 via-background to-background"></div>
       
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-gutter relative z-10 flex flex-col lg:flex-row items-center gap-24">
